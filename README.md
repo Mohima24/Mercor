@@ -1,4 +1,4 @@
-# Mercor
+# TODO APP
 
 ## 🛠️ Installation Steps:
 
@@ -21,6 +21,9 @@ Deployed link
 ```
 https://64906c4b9ea3327bdad1a58c--gleaming-cucurucho-53951b.netlify.app/
 ```
+
+## Features of TODO APP :-
+* Drag and Drop
 
 Technologies used in the project:
 *   React Js
