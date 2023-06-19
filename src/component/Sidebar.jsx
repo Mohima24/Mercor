@@ -17,23 +17,13 @@ const Sidebar = ({children}) => {
     const menuItem=[
         {
             path:"/",
-            name:"Dashboard",
+            name:"HOME",
             icon:<FaTh/>
         },
         {
             path:"/about",
             name:"About",
             icon:<FaUserAlt/>
-        },
-        {
-            path:"/product",
-            name:"Product",
-            icon:<FaShoppingBag/>
-        },
-        {
-            path:"/productList",
-            name:"Product List",
-            icon:<FaThList/>
         }
     ]
     return (
