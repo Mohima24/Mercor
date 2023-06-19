@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.upper-section-main{
+    display: flex;
+    width:90%;
+    margin: auto;
+}
+
+.upper-section-left{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+}
+
+.upper-section-left>h1{
+
+    margin:50px 0px 20px;
+}
+
+.upper-section-left>div{
+    
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-div>select{
+
+    margin:10px 10px 10px 0px;
+    font-size: 16px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border:2px solid grey;
+}
+
+.select-div>select>option{
+    
+    padding:10px;
+}
+
+.share-items-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius:5px;
+    margin:10px 10px;
+    cursor: pointer;
+    border:2px solid rgb(63, 63, 63);
+    color:rgb(63, 63, 63);
+    font-weight: 600;
+}
+
+.share-btn>p{
+    margin-left:5px;
+}
+
+.share-items-div>div:last-child{
+  
+    margin:10px 10px;
+    
+}
+
+.share-btn-logo{
+    font-size: 30px;
+    padding:4px;
+    cursor: pointer;
+}
+
+.active-logo{
+    border-radius: 6px;
+    border:1px solid white;
+    background-color: #00308F;
+    color:white;
+}
+
+
+@media (min-width: 600px) and (max-width: 850px) {
+
+
+    .upper-section-left>h1{
+
+        font-size: 25px;
+    }
+    
+    .select-div>select{
+
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .share-btn-logo{
+        font-size: 25px;
+    }
+
+    .share-btn{
+        padding: 5px 7px;
+        margin:8px;
+        font-size: 15px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+
+    .upper-section-left>h1{
+
+        font-size: 22px;
+    }
+    
+    .select-div>select{
+
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .share-btn-logo{
+        font-size: 22px;
+    }
+
+    .share-btn{
+        padding: 5px 7px;
+        margin:8px;
+        font-size: 14px;
+    }
+    
+}

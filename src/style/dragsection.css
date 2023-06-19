@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.lower-section-main{
+    margin:auto;
+    width:90%;
+}
+
+
+@media  (min-width: 600px) and (max-width:850px){
+
+    .columns-main{
+        display: flex;
+        flex-wrap: wrap;
+        gap:40px;
+    }
+    
+    .columns-main>div{
+
+        width:40%;
+        height:300px;
+
+    }
+}
+
+
+@media  (min-width: 320px) and (max-width:600px){
+
+    .columns-main{
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+        margin-bottom: 20px;
+    }
+    
+    .columns-main>div{
+        width:80%;
+        height:250px;
+    }
+}
